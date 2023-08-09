@@ -1,0 +1,86 @@
+<style>
+    header{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: red;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-image: url("http://localhost:5500/img/sky.jpg");
+    }
+
+    main{
+        background-color: #DCC7E9;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    footer{
+        display: flex;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://www.joegastro.co.uk/wp-content/uploads/2016/08/footer-background.jpg");
+    }
+
+    #division1{
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        background-color: #ECE9EF;
+        padding: 10px;
+    }
+
+    #division2{
+        background-image: url("http://localhost:5500/img/webI.png");
+    }
+
+    #division3{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        background-color: #E2EDE5;
+        padding: 10px;
+    }
+
+</style>
+
+<script>
+    const textProps = {
+        header: 'Bienvenidos al Proyecto DrawSheet' ,
+        division1: 'La clase de Desarrollo Web I es una materia fundamental para aquellos estudiantes que quieren aprender sobre la creación de páginas web y aplicaciones web modernas. Uno de los temas principales que se cubren en esta clase son los objetos nativos del browser.', 
+        division3: 'Dibujando en canvas:',
+        footer: '© 2023 Todos los derechos reservados. Prohibida su reproducción sin autorización por escrito del propietario de los derechos de autor.'
+    };
+
+    const canvasProps = {
+        division4: {
+            ellipse: {
+                fillStyle: "#DF9A8E",
+                strokeStyle: "#900C3F",
+                coords: { x: 150, y: 150 },
+                radius: { x: 70, y: 45 }
+            },
+            line: {
+                strokeStyle: 'green',
+                lineWidth: '3',
+                coords: {
+                    startx: 100,
+                    starty: 20,
+                    endx: 170,
+                    endy: 180
+                }
+            }
+        }          
+    };
+
+    let newSheet = new DrawSheet(textProps, canvasProps);
+    document.body.appendChild(newSheet);
+</script>

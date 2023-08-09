@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1707' height='793' preserveAspectRatio='none' viewBox='0 0 1707 793'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1224%26quot%3b)' fill='none'%3e%3crect width='1707' height='793' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1225%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1707 0L1227.6399999999999 0L1707 57.39z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1227.6399999999999 0L1707 57.39L1707 414.11L867.7199999999998 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M867.72 0L1707 414.11L1707 459.78000000000003L821.5 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M821.5 0L1707 459.78000000000003L1707 644.9000000000001L405.85 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 793L759.29 793L0 791.85z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 791.85L759.29 793L992.52 793L0 582.27z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 582.27L992.52 793L1253.31 793L0 424.12z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 424.12L1253.31 793L1482.8999999999999 793L0 304.28z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1224'%3e%3crect width='1707' height='793' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='13.39%25' y1='-28.81%25' x2='86.61%25' y2='128.81%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1225'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(125%2c 155%2c 194%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu{
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    top: 20%;
+    left: 5%;
+    height: 40%;
+    padding: 2%;
+    background-color: rgba(125, 155, 194, 0.1);
+    border-radius: 32px 32px 32px 32px;
+    -webkit-border-radius: 32px 32px 32px 32px;
+    -moz-border-radius: 32px 32px 32px 32px;
+    border: 7px double rgba(114, 151, 198, 0.07);
+    text-align: justify;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#menu h1{
+    text-align: center;
+    font-size: 38px;
+}
+
+#printIcon{
+    position: absolute;
+    left: 1400px;
+    top: 612px;
+    cursor: pointer;
+}
