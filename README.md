@@ -1,6 +1,6 @@
-# drawSheet-webComponent
+# DrawSheet WebComponent
 
-DrawSheet Web Component was a university project where the goal was to create a web component that would generate a customizable drawing sheet supporting text, styles, local and online images and some geometric figures drawn in canvas. The drawing sheet had to be completely decoupled in order to be reusable.
+**DrawSheet Web Component was a university project where the goal was to create a web component that would generate a customizable drawing sheet supporting text, styles, local and online images and some geometric figures drawn in canvas. The drawing sheet had to be completely decoupled in order to be reusable.**
 
 The sheet has three sections: header, main and footer.
 
@@ -22,3 +22,5 @@ This project helped me to understand concepts such as:
 
 And more...
 
+> [!NOTE]
+> School project for web development I class at URU.
